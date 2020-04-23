@@ -1,89 +1,10 @@
 body {
   letter-spacing: 1.5px;
   font-family: Arial;
+  margin:10%;
 }
 ul {
   list-style: none;
-}
-/* button */
-.button-cercle{
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-}
-.button-cercle .button {
-  width: 200px;
-  height: 60px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-weight: 500;
-  color: #fff;
-  background-color: blue;
-  border: none;
-  border-radius: 45px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none;
-  }
-.button:hover {
-  background-color: #2EE59D;
-  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-  color: #fff;
-  transform: translateY(-7px);
-}
-
-/* hamburger */
-.icon-hamburger {
-  background: #fff;
-  border: 1px solid #ccc;
-  cursor: pointer;
-  height: 50px;
-  position: relative;
-  width: 50px;
-  display: none;
-  margin-bottom: 0.4em;
-}
-
-.icon-hamburger span {
-  background: #cccccc;
-  display: block;
-  height: 16%;
-  left: 50%;
-  margin: -8% 0 0 -42%;
-  position: absolute;
-  top: 50%;
-  width: 84%;
-}
-
-.icon-hamburger span::before,
-.icon-hamburger span::after {
-  background: #cccccc;
-  content: "";
-  display: block;
-  height: 100%;
-  left: 50%;
-  margin: -8% 0 0 -50%;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-}
-
-.icon-hamburger span::before {
-  margin-top: -38%;
-}
-
-.icon-hamburger span::after {
-  margin-top: 19%;
-}
-
-/* responsive  */
-@media screen and (max-width: 768px) {
-  .icon-hamburger {
-    display: inline-block;
-  }
 }
 
 /* header */
@@ -110,16 +31,13 @@ ul {
   text-align: center;
   text-decoration: none;
 }
-
 .menu-container .menu .menu-item a:hover {
   background: #ccc;
   color: #ffffff;
 }
-
 .menu-container .menu .menu-item:last-child a {
   border-right: none;
 }
-
 #modal-overlay {
   background-color: rgba(0, 0, 0, 0.6);
   display: none;
@@ -130,7 +48,6 @@ ul {
   width: 100%;
   z-index: 99;
 }
-
 @media screen and (max-width: 768px) {
   .menu-container .menu {
     -webkit-transform: translate(-50%, -50%);
@@ -154,9 +71,118 @@ ul {
 }
 /* header end */
 
+/* button */
+.button{
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.button-cercle {
+  width: 200px;
+  height: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+.button-cercle:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.button-sq {
+  display: block;
+	width: 180px;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: #EC407A;
+	border: 2px solid #EC407A;
+	border-radius: 3px;
+	transition: .4s;
+}
+.button-sq:hover {
+  background: #EC407A;
+  color: #fff;
+}
+
+/* hamburger */
+.icon-hamburger {
+  background: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  height: 50px;
+  position: relative;
+  width: 50px;
+  display: none;
+  margin-bottom: 0.4em;
+}
+.icon-hamburger span {
+  background: #cccccc;
+  display: block;
+  height: 16%;
+  left: 50%;
+  margin: -8% 0 0 -42%;
+  position: absolute;
+  top: 50%;
+  width: 84%;
+}
+.icon-hamburger span::before,
+.icon-hamburger span::after {
+  background: #cccccc;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 50%;
+  margin: -8% 0 0 -50%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.icon-hamburger span::before {
+  margin-top: -38%;
+}
+.icon-hamburger span::after {
+  margin-top: 19%;
+}
+
+/* responsive  */
+@media screen and (max-width: 768px) {
+  .icon-hamburger {
+    display: inline-block;
+  }
+  .explain{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .image{
+    margin: 20px
+  }
+
+}
+
+
+
 /* section id=home */
-
-
+.explain{
+  display: flex;
+  align-items:center;
+}
+.image{
+  margin: 10px;
+}
 
 /* order rules */
 .center {
