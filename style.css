@@ -25,6 +25,7 @@ ul {
   padding-right: 1em;
 }
 
+
 /* header */
 .row {
   display: flex;
@@ -36,7 +37,7 @@ ul {
   margin: 0;
 }
 .logo {
-
+ margin-left: 10px;
 }
 .menu-text {
   width:90%;
@@ -109,8 +110,7 @@ ul {
   height: 100%;
   align-items: center;
   justify-content: center;
-  margin: 1em;
-  margin-bottom: 1.5em;
+  margin: 1.5em;
 }
 .button-circle {
   width: 200px;
@@ -234,18 +234,6 @@ ul {
   margin-top: 10em;
 }
 
-/* responsive  */
-@media screen and (max-width: 768px) {
-  .icon-hamburger {
-    display: inline-block;
-  }
-  .explain{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-  }
-}
-
 
 /* page home */
 .node-name{
@@ -289,13 +277,13 @@ ul {
 
 /* page staking */
 .stake-top {
-  height: 200px;
+  height: 100px;
   position: relative;
-  background-color: #d5d5d5;
+  background-color: ;
 }
 .stake-title {
   position: absolute;
-  margin-top: 100px;
+
 }
 .stake-base-title p{
   color: #1552B0;
@@ -313,11 +301,8 @@ ul {
   align-self: center;
 }
 
-.stake-content {
-  margin: 5% 5% 0 5%;
-}
 .stake-content-text {
-  margin-top: 3em;
+  margin: 8% 5% 0 5%;
 }
 .blue {
   color: #1552B0;
@@ -342,6 +327,48 @@ ul {
   margin: 1em;
 }
 
+/* page disital */
+.digital-content-text {
+  margin: 3em 1em 1em 1em;
+}
+
+/* responsive  */
+@media screen and (max-width: 768px) {
+  .icon-hamburger {
+    display: inline-block;
+  }
+  .explain{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .align-row {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+  }
+  .card {
+    width: 80%;
+    align-self: center;
+  }
+  .card-2 {
+    width: 60%;
+    align-self: center;
+  }
+}
+/* end responsive */
+
+/* only big screen */
+@media screen and (min-width: 769px) {
+.align-row{
+  display: flex;
+  justify-content:center;
+  flex-direction:row;
+  align-items:center;
+}
+}
+
 /* order rules */
 #main {
   margin-left: 5%;
@@ -350,11 +377,5 @@ ul {
 .center {
   display: flex;
   flex-direction: column;
-  align-items:center;
-}
-.align-row{
-  display: flex;
-  justify-content:center;
-  flex-direction:row;
   align-items:center;
 }
