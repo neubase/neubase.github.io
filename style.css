@@ -1,6 +1,7 @@
 body {
   letter-spacing: 1.5px;
-  font-family: Arial;
+  font-family: Helvetica Neue;
+  font-weight: 300px;
   color: #222222;
   background-color: #fdfdfd;
   width: 100%;
@@ -8,25 +9,53 @@ body {
 ul {
   list-style: none;
 }
+.sub-en {
+  margin: 0;
+  font-weight: lighter;
+  font-size: 12px;
+  color: #63636E;
+}
+.hr {
+  margin: 2em 0em;
+}
+.number {
+  font-size: 40px;
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  padding-right: 1em;
+}
 
 /* header */
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
 .menu-container {
   margin: 0;
 }
-.menu-container .menu {
+.logo {
+
+}
+.menu-text {
+  width:90%;
+}
+.menu {
   display: flex;
-  justify-content: space-between;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
 }
 .menu-container .menu .menu-item {
   flex: 1;
+  align-self:stretch;
 }
+
 .menu-container .menu .menu-item a {
   color: #222222;
   display: block;
-  padding: 1em 0.6em;
+  padding: 1em ;
   text-align: center;
   text-decoration: none;
   font-size: 12px;
@@ -48,6 +77,11 @@ ul {
   z-index: 99;
 }
 @media screen and (max-width: 768px) {
+  .row{
+    display: flex;
+    flex-direction: center;
+    align-items:center;
+  }
   .menu-container .menu {
     -webkit-transform: translate(-50%, -50%);
     background: #fff;
