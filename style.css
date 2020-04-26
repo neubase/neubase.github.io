@@ -10,10 +10,14 @@ body {
 ul {
   list-style: none;
 }
-hr {
+.space {
+  padding: 3em;
+}
+/* .hr {
+  align-items: center;
   width: 80%;
   color: #cccccc;
-}
+} */
 .sub-en {
   margin: 0;
   font-weight: lighter;
