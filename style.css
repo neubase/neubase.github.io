@@ -240,17 +240,15 @@ hr {
 
 
 /* page home */
-.node-name{
-  line-height: 0;
-  margin-bottom: 1.5em;
-}
 .node-name h4{
   font-weight: 600;
   font-size: 24px;
+  margin-top: 1.5em;
 }
 .node-name p{
+  margin: 0;
   font-family: Helvetica Neue;
-  letter-spacing: 0;
+  letter-spacing: 0.1;
   color: #63636E;
 }
 
@@ -332,6 +330,9 @@ hr {
 }
 
 /* page neunode */
+.neunode{
+  margin: 1em;
+}
 .image-b {
   margin: 1.5em 1.5em 0 1,5em;
 }
@@ -377,6 +378,14 @@ hr {
   width: 32.5%;
 }
 
+.management {
+  margin: 0 5%;
+}
+.manage-text {
+  color: #63636E;
+  margin: 0em 1.5em 0.5em 1.5em;
+  width: 80%;
+}
 
 /* color */
 .blue {
@@ -390,7 +399,7 @@ hr {
   width: 100%;
 }
 .back-navy {
-  background-color: #101625;
+  background-color: #0F1524;
 }
 
 
@@ -445,4 +454,9 @@ hr {
   display: flex;
   flex-direction: column;
   align-items:center;
+}
+.align-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
