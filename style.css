@@ -419,7 +419,7 @@ hr {
 
 /* page flow */
 .card-3{
-  background-color: #F2F2F2;
+  background-color: #FaFaFa;
   align-self:stretch;
   width: 18%;
   margin: 1em;
@@ -450,9 +450,6 @@ hr {
 /* contact */
 .contact {
   margin: 5% 10%;
-}
-.googleform{
-
 }
 
 /* color */
