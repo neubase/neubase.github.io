@@ -365,7 +365,7 @@ hr {
   width: 50%;
 }
 .whatneu-text {
-  color: #636363;
+  color: #63636E;
   margin: 1.5em;
   width: 65%;
   margin-left: 5%
@@ -376,6 +376,7 @@ hr {
 .whatneu-text h3 {
   color: #fdfdfd;
 }
+
 .explain{
   display: flex;
   align-items:center;
