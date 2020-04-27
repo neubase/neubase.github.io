@@ -353,8 +353,12 @@ hr {
 }
 
 /* page neunode */
+
 .neunode{
   margin: 1em;
+}
+.image-a {
+  width: 80%;
 }
 .image-b {
   margin: 1.5em 1.5em 0 1,5em;
