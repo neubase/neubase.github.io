@@ -383,14 +383,16 @@ hr {
 
 .spec-text {
   color: #636363;
-  margin: 1.5em;
+  margin: 0 1.5em 1.5em 1.5em;
   width: 65%;
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: stretch;
 }
 .left-line .right-line {
-  width: 50%;
+  align-self: stretch;
+  width: 32.5%;
 }
 .element {
   margin: 1em 1em 1.5em 1.5em;
@@ -399,6 +401,7 @@ hr {
 .element h3 {
   color: #fdfdfd;
   margin: 0.5em;
+  font-size: 16px;
 }
 .element p {
   color: #636363;
