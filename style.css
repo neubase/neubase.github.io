@@ -358,6 +358,7 @@ hr {
 }
 .image-b {
   margin: 1.5em 1.5em 0 1,5em;
+  width: 50%;
 }
 .whatneu-text {
   color: #636363;
@@ -392,7 +393,6 @@ hr {
 .spec-text {
   color: #636363;
   margin: 1.5em;
-  margin-left: 5%;
   width: 65%;
   display: flex;
   align-items: stretch;
@@ -476,6 +476,10 @@ hr {
     display: flex;
     flex-direction: column;
     align-items:center;
+  }
+  .image-b {
+    margin: 1.5em 1.5em 0 1,5em;
+    width: 60%;
   }
   .align-row {
     display: flex;
