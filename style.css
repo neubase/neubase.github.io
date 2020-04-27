@@ -5,7 +5,7 @@ body {
   font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   font-weight: 300px;
   color: #393c40;
-  background-color: #fdfdfd;
+  background-color: #fcfcfc;
   width: 100%;
   text-decoration: none;
 }
@@ -39,6 +39,7 @@ hr {
 }
 .menu-container {
   margin: 0;
+  background-color: #fff;
 }
 .logo {
   margin: 10px;
@@ -237,7 +238,6 @@ hr {
   color: #ffffff;
   align-self: center;
   margin-top: 10em;
-
 }
 
 
@@ -267,7 +267,6 @@ hr {
   color: #ccc;
   font-size: 12px;
 }
-
 .explain{
   display: flex;
   align-items:center;
@@ -407,8 +406,6 @@ hr {
   padding-left: 20px;
   margin-top: 0;
 }
-
-
 
 .management {
   margin: 5% 5%;
