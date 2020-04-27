@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   letter-spacing: 1.5px;
   letter-spacing: 1.5;
   font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
@@ -193,6 +194,8 @@ hr {
 .bannar {
   background-image: url(https://ipfs.io/ipfs/QmU5CAy5otRHrDSRKZaem3AAsP4YYc8PiM8R9QGNAKZKhQ);
   background-size:cover;
+  width: auto;
+  overflow: hidden;
   color: #fdfdfd;
 }
 .bannar-text {
@@ -530,7 +533,7 @@ hr {
     color: #ffffff;
     align-self: center;
     margin-top: 10em;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 /* end responsive */
