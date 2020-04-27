@@ -378,6 +378,7 @@ hr {
 }
 .element {
   margin: 1em 1em 1.5em 1.5em;
+  width: 100%;
 }
 .element h3 {
   color: #fdfdfd;
@@ -393,6 +394,9 @@ hr {
 .explain{
   display: flex;
   align-items:center;
+}
+.spec-content{
+  width: 100%;
 }
 .spec-text {
   color: #636363;
