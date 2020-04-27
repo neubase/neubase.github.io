@@ -5,7 +5,7 @@ body {
   font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   font-weight: 300px;
   color: #393c40;
-  background-color: #fcfcfc;
+  background-color: #fdfdfd;
   width: 100%;
   text-decoration: none;
 }
@@ -365,7 +365,7 @@ hr {
 }
 .whatneu-text {
   color: #63636E;
-  margin: 1.5em;
+  margin: 1em;
   width: 65%;
   margin-left: 5%
 }
@@ -473,7 +473,7 @@ hr {
   width: 100%;
 }
 .back-navy {
-  background-color: #0F1524;
+  background-color: #080D1F;
 }
 
 /* responsive  */
