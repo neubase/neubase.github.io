@@ -41,7 +41,7 @@ hr {
   margin: 0;
 }
 .logo {
- margin: 10px;
+  margin: 10px;
 }
 .menu-text {
   width:90%;
@@ -65,7 +65,7 @@ hr {
   font-size: 12px;
 }
 .menu-container .menu .menu-item a:hover {
-  color: #eeeeee;
+  color: #1552B0;
 }
 .menu-container .menu .menu-item:last-child a {
   border-right: none;
