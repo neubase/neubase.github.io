@@ -527,7 +527,7 @@ hr {
 }
 
 /* order rules */
-#main {
+.main {
   padding-left: 10%;
   padding-right: 10%;
 }
