@@ -471,9 +471,12 @@ hr {
 .back-black {
   background-color: #121217;
   width: 100%;
+  margin: 0
 }
 .back-navy {
   background-color: #080D1F;
+  width: 100%;
+  margin: 0
 }
 
 /* responsive  */
