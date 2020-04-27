@@ -378,7 +378,6 @@ hr {
 }
 .element {
   margin: 1em 1em 1.5em 1.5em;
-  width: 100%;
 }
 .element h3 {
   color: #fdfdfd;
@@ -390,7 +389,9 @@ hr {
   padding-left: 20px;
   margin-top: 0;
 }
-
+.width80 {
+  width: 80%;
+}
 .explain{
   display: flex;
   align-items:center;
@@ -406,7 +407,7 @@ hr {
   align-items: stretch;
 }
 .left-line .right-line {
-  width: 32.5%;
+  width: 50%;
 }
 
 .management {
