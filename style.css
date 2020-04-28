@@ -232,6 +232,7 @@ hr {
 
 /* page home */
 .top {
+  width: 100%;
   position: relative;
 }
 .top-text {
@@ -241,8 +242,7 @@ hr {
   margin-top: 10em;
 }
 .top-image {
-  width: 100;
-  overflow: hidden;
+  width: 100%;
 }
 
 .node-name h4{
