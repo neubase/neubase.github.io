@@ -241,7 +241,8 @@ hr {
   margin-top: 10em;
 }
 .top-image {
-  width: 100%;
+  width: 100;
+  overflow: hidden;
 }
 
 .node-name h4{
