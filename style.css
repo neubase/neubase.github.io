@@ -303,7 +303,6 @@ hr {
   font-size: 1.2em;
   margin: 1.5em 0px;
 }
-
 .stake-base-area{
   background-color: #F2F2F2;
 }
@@ -313,7 +312,6 @@ hr {
 .s-b-t {
   align-self: center;
 }
-
 .stake-content-text {
   margin: 8% 5% 0 5%;
 }
@@ -352,7 +350,6 @@ hr {
 }
 
 /* page neunode */
-
 .neunode{
   /* margin: 1em; */
 }
@@ -380,7 +377,6 @@ hr {
   display: flex;
   align-items:center;
 }
-
 .spec-text {
   color: #636363;
   margin: 0 5% 1em 5%;
@@ -545,11 +541,7 @@ hr {
     justify-content: flex-start;
     align-items: stretch;
   }
-  .left-line  {
-    align-self: stretch;
-  }
-  .right-line{
-    align-self: stretch;
+
 }
 /* end responsive */
 
@@ -572,7 +564,6 @@ hr {
   display: flex;
   flex-direction: column;
   align-items:center;
-
 }
 .align-column{
   display: flex;
