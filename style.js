@@ -24,8 +24,8 @@
   			options = {
   				attribute: 	'data-delighter',
   				classNames: ['delighter', 'started', 'ended'],
-  				start: 			0.9, // default start threshold
-  				end: 				0.9, // default end threshold
+  				start: 			0.95, // default start threshold
+  				end: 				0.95, // default end threshold
   				autoInit: 	true 	// initialize when DOMContentLoaded
   			};
 
