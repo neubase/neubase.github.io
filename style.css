@@ -354,7 +354,7 @@ hr {
 /* page neunode */
 
 .neunode{
-  margin: 1em;
+  /* margin: 1em; */
 }
 .image-a {
   width: 80%;
@@ -400,7 +400,7 @@ hr {
 }
 .element {
   margin: 1em 1em 1.5em 1.5em;
-  /* width: %; */
+  width: 80%;
 }
 .element h3 {
   color: #fdfdfd;
@@ -474,13 +474,9 @@ hr {
 }
 .back-black {
   background-color: #121217;
-  width: 100%;
-  margin: 0
 }
 .back-navy {
   background-color: #080D1F;
-  width: 100%;
-  margin: 0
 }
 
 /* responsive  */
@@ -576,6 +572,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items:center;
+
 }
 .align-column{
   display: flex;
