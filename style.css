@@ -319,6 +319,10 @@ hr {
 .s-b-t {
   align-self: center;
 }
+.stake-base-text a {
+  text-decoration: none;
+  color: grey;
+}
 .stake-content-text {
   margin: 8% 5% 0 5%;
 }
@@ -474,6 +478,9 @@ hr {
 .googleform {
   margin-top: 6em;
 }
+.googleform-2 {
+  margin-top: 1em;
+}
 
 /* color */
 .blue {
@@ -562,6 +569,9 @@ hr {
   .googleform iframe {
     width: 100%;
   }
+  .googleform-2 iframe{
+    width: 100%;
+  }
 }
 /* end responsive */
 
@@ -589,6 +599,12 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.bottom {
+  margin-bottom: 2em;
+}
+.margintop {
+  margin-top: 0;
 }
 
 /* Scroll Motion */
