@@ -241,7 +241,7 @@ hr {
   align-self: center;
   margin-top: 15%;
 }
-.top-image {
+.top-image img{
   width: 100%;
 }
 
@@ -483,6 +483,7 @@ hr {
   .icon-hamburger {
     display: inline-block;
   }
+
   .explain{
     display: flex;
     flex-direction: column;
@@ -524,11 +525,14 @@ hr {
   .arrow {
     display: none;
   }
+  .top-image img{
+    height: 300px;
+  }
   .top-text {
     position: absolute;
     color: #ffffff;
     align-self: center;
-    margin-top: 10%;
+    margin-top: 20%;
     font-size: 12px;
   }
   .spec-text {
