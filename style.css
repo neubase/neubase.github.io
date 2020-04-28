@@ -560,6 +560,9 @@ hr {
   .res-iamge img{
     width: 100%;
   }
+  .googleform iframe {
+    width: 100%;
+  }
 }
 /* end responsive */
 
