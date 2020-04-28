@@ -32,6 +32,9 @@ hr {
 .res-iamge img{
   width: 80%;
 }
+.weight {
+  font-weight: 600;
+}
 
 /* header */
 .row {
@@ -460,6 +463,10 @@ hr {
   margin-left: 10%;
   padding-bottom: 0.5em;
 }
+.flow-content-text a{
+  text-decoration: none;
+  color: grey;
+}
 
 /* contact */
 .contact {
@@ -478,6 +485,10 @@ hr {
 }
 .back-navy {
   background-color: #080D1F;
+}
+.marker {
+  background:linear-gradient(transparent 75%, #fff799 75%);
+  font-weight: bolder;
 }
 
 /* responsive  */
