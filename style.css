@@ -551,11 +551,9 @@ hr {
   }
   .left-line  {
     align-self: stretch;
-    width: 40%;
   }
   .right-line{
     align-self: stretch;
-    width: 40%;
 }
 /* end responsive */
 
