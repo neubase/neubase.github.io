@@ -390,9 +390,13 @@ hr {
   justify-content: flex-start;
   align-items: stretch;
 }
-.left-line .right-line {
+.left-line  {
   align-self: stretch;
-  width: 24%;
+  width: 28%;
+}
+.right-line{
+  align-self: stretch;
+  width: 28%;
 }
 .element {
   margin: 1em 1em 1.5em 1.5em;
