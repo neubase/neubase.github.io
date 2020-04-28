@@ -496,7 +496,6 @@ hr {
   .icon-hamburger {
     display: inline-block;
   }
-
   .explain{
     display: flex;
     flex-direction: column;
@@ -545,7 +544,7 @@ hr {
     position: absolute;
     color: #ffffff;
     align-self: center;
-    margin-top: 20%;
+    margin-top: 25%;
     font-size: 12px;
   }
   .spec-text {
