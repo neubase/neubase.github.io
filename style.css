@@ -585,3 +585,22 @@ hr {
   flex-direction: column;
   align-items: center;
 }
+
+/* Scroll Motion */
+/* 基本のスタイル */
+   .foo.delighter {
+      transition: all .3s ease-out;
+      transform: translateY(100%);
+      opacity: 0;
+   }
+
+/* スタート時のスタイル */
+   .foo.delighter.started {
+      transform: none;
+      opacity: 1;
+   }
+
+/* エンド時のスタイル */
+   .foo.delighter.started.ended {
+      /* border: solid red 10px; */
+   }
