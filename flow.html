@@ -140,7 +140,7 @@
   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location=currentURL + 'thanks.html';}"></iframe>
 
   <div class="wide center">
-    <form class="p-form" action="https://docs.google.com/forms/d/e/1FAIpQLSeWKQJQu-RLLyP8ipwdXXtNPOQo0vEnp_kUrKKZ3A878_aNqQ/viewform" target="hidden_iframe" onsubmit="submitted=true;">
+    <form class="submit" action="https://docs.google.com/forms/d/e/1FAIpQLSeWKQJQu-RLLyP8ipwdXXtNPOQo0vEnp_kUrKKZ3A878_aNqQ/viewform" target="hidden_iframe" onsubmit="submitted=true;">
 
     <!-- <form class="p-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeWKQJQu-RLLyP8ipwdXXtNPOQo0vEnp_kUrKKZ3A878_aNqQ/formResponse"> -->
     <div class="digital-top center">
@@ -208,10 +208,6 @@
     </form>
   </div>
 
-
-
-
-
   <!-- footer -->
   <section>
     <!-- <div class="bannar center">
@@ -229,6 +225,11 @@
     </div>
   </section>
 </body>
+<!-- form redirect -->
+  <script type="text/javascript">
+    var submitted = false;
+    var currentURL = window.location.href;
+  </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="style.js"></script>
 </html>
