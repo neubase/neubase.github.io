@@ -492,6 +492,7 @@ hr {
   border: 2px solid #d2d2d2;
   padding: 2em 2.5em;
   margin: 1em;
+  font-family : inherit;
 }
 .p-formGroup input {
   font-weight: 300;
@@ -499,6 +500,7 @@ hr {
   height: 24px;
   font-size: 1em;
   color: #222222;
+  font-family : inherit;
 }
 .p-formGroup label {
   color: #222222;
@@ -512,6 +514,7 @@ hr {
   margin: 0.5em 0 1.2em 0;
   background-color: #fdfdfd;
   border:solid 1px #ccc;
+  font-family : inherit;
 }
 input[type="submit"]{
   -webkit-appearance: none;
@@ -536,6 +539,20 @@ input:focus {
 .submit :hover {
   background: #1552B0;
   color: #fff;
+}
+.area {
+  font-weight: 400;
+  margin: 0.5em 0 1.2em 0;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  color: #222222;
+  width: 100%;
+  height: 300px;
+  border:1px sloid #ccc;
+  font-family : inherit;
+}
+textarea[id="contactText"]{
+  -webkit-appearance: none;
 }
 
 /* thanks */
