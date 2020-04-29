@@ -663,13 +663,11 @@ input:focus {
     margin: 0;
   }
   .submit input {
-    font-size: 12px;
-  }
-  input{
-    -webkit-appearance: none;
+    font-size: 14px;
+    font-weight: 400;
   }
   input[type="submit"]{
-  -webkit-appearance: none;
+    -webkit-appearance: none;
   }
 }
 /* end responsive */
