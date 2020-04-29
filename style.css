@@ -537,6 +537,14 @@ input:focus {
   color: #fff;
 }
 
+/* thanks */
+.thanks {
+  margin: 5% 10% 5% 10%;
+}
+.thanks h2 {
+  font-size: 20px;
+}
+
 /* color */
 .blue {
   color: #1552B0;
@@ -673,6 +681,9 @@ input:focus {
   }
   input[type="submit"]{
     -webkit-appearance: none;
+  }
+  .thanks h2 {
+    font-size: 20px;
   }
 }
 /* end responsive */
