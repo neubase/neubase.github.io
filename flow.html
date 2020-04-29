@@ -128,18 +128,90 @@
         <h2 class="blue"><span class="number">5</span>運用開始</h2>
         <p>設置が完了後、ステーキングの運用を開始いたします。毎日のステーキングの運用状況は、株式会社Neukindが提供するWEB上のダッシュボードより24時間いつでもご確認いただけます。</p>
       </div>
-      <!-- <div class="button center">
-        <button class="button-sq" type="button" name="button">申し込み</button>
-      </div> -->
     </div>
   </section>
 
   <a name="apply"></a>
-  <section id="contact align-column">
+  <!-- <section id="contact align-column">
     <div class="googleform center">
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWKQJQu-RLLyP8ipwdXXtNPOQo0vEnp_kUrKKZ3A878_aNqQ/viewform?embedded=true" width="100%" height="1800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
-  </section>
+  </section> -->
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location=currentURL + 'thanks.html';}"></iframe>
+
+  <div class="main center">
+    <form class="p-form" action="https://docs.google.com/forms/d/e/1FAIpQLSeWKQJQu-RLLyP8ipwdXXtNPOQo0vEnp_kUrKKZ3A878_aNqQ/viewform" target="hidden_iframe" onsubmit="submitted=true;">
+
+    <!-- <form class="p-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeWKQJQu-RLLyP8ipwdXXtNPOQo0vEnp_kUrKKZ3A878_aNqQ/formResponse"> -->
+    <div class="digital-top center">
+      <div class="digital-title center">
+        <h2>申し込みフォーム</h2>
+        <p class="sub-en">Application Form</p>
+      </div>
+    </div>
+    <div class="formContent">
+      <!-- 申し込み セレクトボックス -->
+        <div class="p-formGroup u-mb20">
+          <label for="contactType">区分</label>
+          <select class="column select" name="entry.445851271" id="contactType">
+            <option data-value="法人" value="法人">法人</option>
+            <option data-value="個人" value="個人">個人</option>
+          </select>
+        </div>
+      <!-- お名前 テキスト入力 -->
+        <div class="p-formGroup u-mb20 column">
+          <label for="userName">氏名（担当者名）</label>
+          <input type="text" id="userName" name="entry.1740396832" required>
+        </div>
+      <!-- メールアドレス入力 -->
+      <div class="p-formGroup u-mb20 column">
+        <label for="email">メールアドレス</label>
+        <input type="email" id="email" name="entry.2045644582" required>
+      </div>
+      <!-- 電話番号 -->
+      <div class="p-formGroup u-mb20 column">
+        <label for="phoneNumber">電話番号</label>
+        <input type="tel" id="phoneNumber" name="entry.719831929" maxlength="15" required>
+      </div>
+      <!-- ご希望の商品 -->
+      <div class="p-formGroup u-mb20">
+        <label for="productType">ご希望の商品</label>
+        <select class="column select" name="entry.1485447887" id="productType">
+          <option data-value="NeuNode付き投資物件" value="NeuNode付き投資物件">NeuNode付き投資物件</option>
+          <option data-value="NeuNodeのみ" value="NeuNodeのみ">NeuNodeのみ</option>
+        </select>
+      </div>
+      <!-- ご希望物件🆔 -->
+      <div class="p-formGroup u-mb20 column">
+        <label for="id">ご希望物件ID</label>
+        <input type="text" id="propid" name="entry.65146066" >
+      </div>
+      <!-- 事業予算 -->
+      <div class="p-formGroup u-mb20 column">
+        <label for="price">事業予算・節税額（他にも合う物件をご紹介します）</label>
+        <input type="text" id="price" name="entry.1963883201" >
+      </div>
+      <!-- 中小企業経営強化税制の適応 -->
+      <div class="p-formGroup u-mb20">
+        <label for="ynType">中小企業経営強化税制の適応</label>
+        <select class="column select" name="entry.1993650333" id="ynType">
+          <option data-value="希望しない" value="希望しない">希望しない</option>
+          <option data-value="希望する" value="希望する">希望する</option>
+          <option data-value="わからない" value="わからない">わからない</option>
+        </select>
+      </div>
+      <!-- 送信 -->
+      <div class="submit center">
+        <input type="submit" value="送信する">
+      </div>
+    </div>
+
+    </form>
+  </div>
+
+
+
+
 
   <!-- footer -->
   <section>

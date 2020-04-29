@@ -471,7 +471,7 @@ hr {
   color: grey;
 }
 
-/* contact */
+/* company */
 .contact {
   margin: 5% 10%;
 }
@@ -480,6 +480,56 @@ hr {
 }
 .googleform-2 {
   margin-top: 1em;
+}
+.p-form {
+  display: block;
+  flex-direction: column;
+  width: 60%;
+}
+.formContent {
+  display:flex;
+  flex-direction: column;
+  border: 2px solid #d2d2d2;
+  padding: 2em 2.5em;
+  margin: 1em;
+}
+.p-formGroup input {
+  font-weight: 500;
+  margin: 0.5em 0 1em 0;
+  height: 24px;
+  font-size: 1em;
+  color: #222222;
+}
+.p-formGroup label {
+  color: #222222;
+  font-weight: 600;
+}
+.submit {
+  margin: 2em;
+}
+.submit input {
+  display: block;
+  font-size: 14px;
+  padding: 0.8em 4em;
+  text-align: center;
+  text-decoration: none;
+  color: #1552B0;
+  border: 2px solid #1552B0;
+  border-radius: 3px;
+  transition: 0.4s;
+}
+.submit :hover {
+  background: #1552B0;
+  color: #fff;
+}
+.select {
+  height: 24px;
+  width: 50%;
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0.5em 0 1em 0;
+  background-color: #fdfdfd;
+  border:solid 1px #ccc;
 }
 
 /* color */
@@ -572,6 +622,13 @@ hr {
   .googleform-2 iframe{
     width: 100%;
   }
+  .p-form {
+    width: 100%;
+  }
+  .submit input {
+    background: #1552B0;
+    color: #fff;
+  }
 }
 /* end responsive */
 
@@ -606,6 +663,11 @@ hr {
 .margintop {
   margin-top: 0;
 }
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 
 /* Scroll Motion */
 /* 基本のスタイル */
