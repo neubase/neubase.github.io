@@ -646,12 +646,21 @@ hr {
     color: #222222;
     font-weight: 600;
   }
+  .submit {
+    margin: 2em;
+  }
   .submit input {
     display: block;
     font-size: 12px;
     padding: 0.8em 4em;
     text-align: center;
     text-decoration: none;
+    color: #1552B0;
+    border: 2px solid #1552B0;
+    border-radius: 3px;
+    transition: 0.4s;
+  }
+  .submit :hover {
     background: #1552B0;
     color: #fff;
   }
