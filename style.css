@@ -667,7 +667,10 @@ input:focus {
   }
   input{
     -webkit-appearance: none;
-}
+  }
+  input[type="submit"]{
+  -webkit-appearance: none;
+  }
 }
 /* end responsive */
 
