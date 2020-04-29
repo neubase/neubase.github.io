@@ -513,6 +513,9 @@ hr {
   background-color: #fdfdfd;
   border:solid 1px #ccc;
 }
+.input {
+  -webkit-appearance: none;
+}
 input:focus {
     border:solid 1px #1552B0;
 }
@@ -632,12 +635,11 @@ input:focus {
   .formContent {
     display:flex;
     flex-direction: column;
-    border: 2px solid #d2d2d2;
     margin: 0.25em;
     padding: 1em;
   }
   .p-formGroup input {
-    font-weight: 500;
+    font-weight: 300;
     margin: 0.5em 0 1em 0;
     height: 24px;
     font-size: 1em;
@@ -660,6 +662,12 @@ input:focus {
   .wide{
     margin: 0;
   }
+  .submit input {
+    font-size: 12px;
+  }
+  input{
+    -webkit-appearance: none;
+}
 }
 /* end responsive */
 
