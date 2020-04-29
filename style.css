@@ -495,7 +495,7 @@ hr {
 }
 .p-formGroup input {
   font-weight: 300;
-  margin: 0.5em 0 1em 0;
+  margin: 0.5em 0 1.2em 0;
   height: 24px;
   font-size: 1em;
   color: #222222;
@@ -509,11 +509,11 @@ hr {
   width: 60%;
   font-size: 1em;
   font-weight: 300;
-  margin: 0.5em 0 1em 0;
+  margin: 0.5em 0 1.2em 0;
   background-color: #fdfdfd;
   border:solid 1px #ccc;
 }
-.input {
+input[type="submit"]{
   -webkit-appearance: none;
 }
 input:focus {
@@ -552,6 +552,10 @@ input:focus {
 }
 .marker {
   background:linear-gradient(transparent 75%, #fff799 75%);
+  font-weight: bolder;
+}
+.marker-b {
+  background:linear-gradient(transparent 75%, #bce2e8 75%);
   font-weight: bolder;
 }
 
@@ -637,6 +641,7 @@ input:focus {
     flex-direction: column;
     margin: 0.25em;
     padding: 1em;
+    border: none;
   }
   .p-formGroup input {
     font-weight: 300;
