@@ -568,6 +568,12 @@ input:focus {
   background:linear-gradient(transparent 75%, #bce2e8 75%);
   font-weight: bolder;
 }
+.asterisk {
+  color: rgba(255, 147, 147, 0.85);
+}
+.need {
+  font-size: 0.85em;
+}
 
 /* responsive  */
 @media screen and (max-width: 768px) {
