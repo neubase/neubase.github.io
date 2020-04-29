@@ -521,6 +521,7 @@ input:focus {
 }
 .submit {
   margin: 1em;
+  margin-bottom: 3em;
 }
 .submit input {
   /* display: block; */
