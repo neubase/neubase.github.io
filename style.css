@@ -647,6 +647,7 @@ hr {
     height: 24px;
     font-size: 1em;
     color: #222222;
+    border: 1px solid #ccc;
   }
   .p-formGroup label {
     color: #222222;
