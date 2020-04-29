@@ -647,22 +647,23 @@ hr {
     font-weight: 600;
   }
   .submit {
-    margin: 2em;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5em;
   }
   .submit input {
+    padding: 1.5em;
     display: block;
     font-size: 12px;
     padding: 0.8em 4em;
     text-align: center;
     text-decoration: none;
-    color: #1552B0;
-    border: 2px solid #1552B0;
+    color: #fff;
+    /* border: 2px solid #1552B0; */
     border-radius: 3px;
     transition: 0.4s;
-  }
-  .submit :hover {
     background: #1552B0;
-    color: #fff;
   }
   .select {
     height: 24px;
