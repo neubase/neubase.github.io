@@ -484,7 +484,7 @@ hr {
 .p-form {
   display: block;
   flex-direction: column;
-  width: 60%;
+  width: 70%;
 }
 .formContent {
   display:flex;
@@ -623,13 +623,6 @@ hr {
     width: 100%;
   }
   .p-form {
-    width: 100%;
-  }
-  .submit input {
-    background: #1552B0;
-    color: #fff;
-  }
-  .p-form {
     display: block;
     flex-direction: column;
     width: 100%;
@@ -638,8 +631,7 @@ hr {
     display:flex;
     flex-direction: column;
     border: 2px solid #d2d2d2;
-    padding: 1em 2em;
-    margin: 0.5em;
+    margin: 0.25em;
   }
   .p-formGroup input {
     font-weight: 500;
@@ -670,6 +662,9 @@ hr {
     margin: 0.5em 0 1em 0;
     background-color: #fdfdfd;
     border:solid 1px #ccc;
+  }
+  .wide{
+    margin: 0;
   }
 }
 /* end responsive */
@@ -709,7 +704,9 @@ hr {
   display: flex;
   flex-direction: column;
 }
-
+.wide{
+  margin: 0 5%;
+}
 
 /* Scroll Motion */
 /* 基本のスタイル */
