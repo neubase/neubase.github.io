@@ -494,7 +494,7 @@ hr {
   margin: 1em;
 }
 .p-formGroup input {
-  font-weight: 500;
+  font-weight: 300;
   margin: 0.5em 0 1em 0;
   height: 24px;
   font-size: 1em;
@@ -504,24 +504,6 @@ hr {
   color: #222222;
   font-weight: 600;
 }
-.submit {
-  margin: 2em;
-}
-.submit input {
-  display: block;
-  font-size: 14px;
-  padding: 0.8em 4em;
-  text-align: center;
-  text-decoration: none;
-  color: #1552B0;
-  border: 2px solid #1552B0;
-  border-radius: 3px;
-  transition: 0.4s;
-}
-.submit :hover {
-  background: #1552B0;
-  color: #fff;
-}
 .select {
   height: 24px;
   width: 60%;
@@ -530,6 +512,26 @@ hr {
   margin: 0.5em 0 1em 0;
   background-color: #fdfdfd;
   border:solid 1px #ccc;
+}
+input:focus {
+    border:solid 1px #1552B0;
+}
+.submit {
+  margin: 1em;
+}
+.submit input {
+  /* display: block; */
+  font-size: 14px;
+  padding: 0.8em 4em;
+  text-align: center;
+  color: #1552B0;
+  border: 2px solid #1552B0;
+  border-radius: 3px;
+  transition: 0.4s;
+}
+.submit :hover {
+  background: #1552B0;
+  color: #fff;
 }
 
 /* color */
@@ -645,25 +647,6 @@ hr {
   .p-formGroup label {
     color: #222222;
     font-weight: 600;
-  }
-  .submit {
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: 1em;
-  }
-  .submit input {
-    padding: 1.5em;
-    display: block;
-    font-size: 14px;
-    padding: 0.8em 4em;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    /* border: 2px solid #1552B0; */
-    border-radius: 3px;
-    transition: 0.4s;
-    background: #1552B0;
   }
   .select {
     height: 24px;
