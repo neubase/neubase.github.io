@@ -539,10 +539,11 @@ input:focus {
 
 /* thanks */
 .thanks {
-  margin: 5% 10% 5% 10%;
+  margin: 5% 10%;
 }
 .thanks h2 {
   font-size: 20px;
+  margin:0.5em;
 }
 
 /* color */
@@ -682,8 +683,15 @@ input:focus {
   input[type="submit"]{
     -webkit-appearance: none;
   }
+  .thanks {
+    margin: 5% 10%;
+    padding: 0 10%;
+  }
   .thanks h2 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .thanks p {
+    font-size: 14px;
   }
 }
 /* end responsive */
