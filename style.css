@@ -564,6 +564,15 @@ textarea[id="contactText"]{
   margin:0.5em;
 }
 
+/* policy terms */
+.c2 {
+  margin-bottom: 2em;
+}
+.deco_list li{
+  list-style:initial;
+}
+
+
 /* color */
 .blue {
   color: #1552B0;
