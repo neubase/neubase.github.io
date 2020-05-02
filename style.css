@@ -93,7 +93,7 @@ hr {
     flex-direction: center;
     align-items:center;
   }
-  /* .menu-container .menu {
+  .menu-container .menu {
     -webkit-transform: translate(-50%, -50%);
     background: #fdfdfd;
     display: none;
@@ -107,7 +107,7 @@ hr {
   }
   .menu-container .menu .menu-item:last-child a {
     border-bottom: none;
-  } */
+  }
 }
 /* header end */
 
