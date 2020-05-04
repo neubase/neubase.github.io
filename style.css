@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  letter-spacing: 1.5px;
   letter-spacing: 1.5;
   font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   font-weight: 300px;
@@ -157,44 +156,6 @@ hr {
   color: #fff;
 }
 
-/* hamburger */
-.icon-hamburger {
-  background: #fdfdfd;
-  cursor: pointer;
-  height: 50px;
-  position: relative;
-  width: 50px;
-  display: none;
-  margin-bottom: 0.4em;
-}
-.icon-hamburger span {
-  background: #cccccc;
-  display: block;
-  height: 16%;
-  left: 50%;
-  margin: -4% 0 0 -32%;
-  position: absolute;
-  top: 50%;
-  width: 84%;
-}
-.icon-hamburger span::before,
-.icon-hamburger span::after {
-  background: #cccccc;
-  content: "";
-  display: block;
-  height: 100%;
-  left: 50%;
-  margin: 0 0 0 -50%;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-}
-.icon-hamburger span::before {
-  margin-top: -38%;
-}
-.icon-hamburger span::after {
-  margin-top: 19%;
-}
 
 /* bannar */
 .bannar {
@@ -506,12 +467,13 @@ hr {
   font-family : inherit;
 }
 .p-formGroup input {
-  font-weight: 300;
+  font-weight: 400;
   margin: 0.5em 0 1.2em 0;
   height: 24px;
   font-size: 1em;
   color: #222222;
   font-family : inherit;
+  letter-spacing: 1.5;
 }
 .p-formGroup label {
   color: #222222;
@@ -521,11 +483,12 @@ hr {
   height: 24px;
   width: 60%;
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0.5em 0 1.2em 0;
   background-color: #fdfdfd;
   border:solid 1px #ccc;
   font-family : inherit;
+  letter-spacing: 1.5;
 }
 input[type="submit"]{
   -webkit-appearance: none;
@@ -561,6 +524,7 @@ input:focus {
   height: 300px;
   border:1px sloid #ccc;
   font-family : inherit;
+  letter-spacing: 1.5;
 }
 textarea[id="contactText"]{
   -webkit-appearance: none;
@@ -582,6 +546,83 @@ textarea[id="contactText"]{
 .deco_list li{
   list-style:initial;
 }
+
+/* List prop */
+.alppy_button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button_li {
+  display: block;
+  font-size: 14px;
+	padding: 0.8em 4em;
+	text-align: center;
+	text-decoration: none;
+	color: #1552B0;
+	border: 2px solid #1552B0;
+	border-radius: 3px;
+	transition: 0.4s;
+}
+.button_buy {
+  display: block;
+  font-size: 14px;
+	padding: 0.8em 4em;
+	text-align: center;
+	text-decoration: none;
+	color: #fdfdfd;
+  background-color: #1552B0;
+	border: 2px solid #1552B0;
+	border-radius: 3px;
+	transition: 0.4s;
+}
+.propblock {
+  margin-top: 4em;
+}
+.propTitle {
+  margin:1em 1em 0.5em 1em;
+  padding:0.5em;
+  background-color: #eee;
+  font-weight: bold;
+}
+.propImage {
+  margin:1em;
+}
+.propCard {
+   margin:1em;
+   padding: 1em;
+   background-color: #;
+   width: 350px;
+   display: flex;
+   flex-direction: row;
+}
+.prop_d {
+  margin: 0.25em 0;
+}
+.detail_content {
+  margin: 1.5em 0.5em 1em 0.5em;
+  padding: 0.25em;
+}
+
+.included_card {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.card_4{
+  background-color: #F2F2F2;
+  align-self:stretch;
+  width: 20%;
+  margin: 1em;
+}
+.card_4 p {
+  margin: 1em;
+  font-weight: 400;
+}
+
+
+
 
 
 /* color */
@@ -737,6 +778,13 @@ textarea[id="contactText"]{
   .thanks p {
     font-size: 14px;
   }
+  .button_li {
+    padding: 1em 2em;
+  }
+  .button_buy {
+    padding: 1em 2em;
+  }
+
 }
 /* end responsive */
 
@@ -893,7 +941,6 @@ textarea[id="contactText"]{
      align-items: center;
    }
    .menu-item {
-
      width: 100%;
      padding: 0.5em;
      padding-top: 1em;
