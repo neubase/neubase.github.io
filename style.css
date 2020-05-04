@@ -525,6 +525,7 @@ input:focus {
   border:1px sloid #ccc;
   font-family : inherit;
   letter-spacing: 1.5;
+  padding-left: 0.7em;
 }
 textarea[id="contactText"]{
   -webkit-appearance: none;
@@ -745,6 +746,7 @@ textarea[id="contactText"]{
     font-size: 1em;
     color: #222222;
     border: 1px solid #ccc;
+    padding-left: 0.7em;
   }
   .p-formGroup label {
     color: #222222;
