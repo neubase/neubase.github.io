@@ -242,6 +242,7 @@ hr {
 .list {
   margin: 0;
   align-self: center;
+  letter-spacing: 1.5px;
 }
 .node-frase-text li{
   color: #ccc;
