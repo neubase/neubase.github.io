@@ -824,8 +824,15 @@ table th{
     margin: 0.5em;
     width: 100%;
   }
+  .cardTitle th{
+    padding-right: 0.5em;
+    margin-left: 0.5em;
+  }
   .detail_text {
     margin-left: 0em;
+  }
+  .detail_content th {
+    padding-right: 0.5em;
   }
 
 
