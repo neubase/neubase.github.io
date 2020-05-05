@@ -599,12 +599,36 @@ textarea[id="contactText"]{
    display: flex;
    flex-direction: row;
 }
-.prop_d {
-  margin: 0.25em 0;
+table th{
+  font-weight: 400;
+}
+.cardTitle table{
+  text-align: left;
+}
+.cardTitle th{
+  padding-right: 3em;
+}
+.bold {
+  font-weight: bold;
 }
 .detail_content {
   margin: 1.5em 0.5em 1em 0.5em;
   padding: 0.25em
+}
+.detail_content p {
+  margin:0.2em;
+}
+.detail_content a {
+  text-decoration: none;
+  font-size: 14px;
+  color: blue;
+  letter-spacing: 0.5px;
+}
+.detail_content table {
+  text-align: left;
+}
+.detail_content th {
+  padding-right: 3em;
 }
 
 .included_card {
@@ -618,13 +642,15 @@ textarea[id="contactText"]{
   background-color: #F2F2F2;
   align-self:stretch;
   width: 28%;
-  margin: 1em;
+  margin: 0.5em;
 }
 .card_4 p {
-  padding: 0.2em 0.5en;
   font-weight: 400;
+  margin: 1em 0.75em;
 }
-
+.detail_text {
+  margin-left: 2em;
+}
 
 
 
@@ -798,6 +824,10 @@ textarea[id="contactText"]{
     margin: 0.5em;
     width: 100%;
   }
+  .detail_text {
+    margin-left: 0em;
+  }
+
 
 }
 /* end responsive */
