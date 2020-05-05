@@ -829,6 +829,14 @@ table th{
     margin: 0.5em;
     width: 100%;
   }
+  .propblock {
+    display: flex;
+    flex-direction: column;
+  }
+  .propTitle {
+    align-self: center;
+    width: 100%;
+  }
   .cardTitle th{
     padding-right: 1em;
   }
