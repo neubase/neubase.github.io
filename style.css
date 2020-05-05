@@ -566,6 +566,7 @@ textarea[id="contactText"]{
 	border: 2px solid #1552B0;
 	border-radius: 3px;
 	transition: 0.4s;
+  margin: 0;
 }
 .button_buy {
   display: block;
@@ -814,13 +815,12 @@ table th{
   .thanks p {
     font-size: 14px;
   }
+  .alppy_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-  .button_li {
-    padding: 1em 2em;
-  }
-  .button_buy {
-    padding: 1em 2em;
-  }
   .included_card {
     width: 100%;
     display: column;
