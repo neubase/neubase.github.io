@@ -600,7 +600,7 @@ textarea[id="contactText"]{
    flex-direction: row;
 }
 table th{
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 .cardTitle table{
   text-align: left;
@@ -650,6 +650,7 @@ table th{
 }
 .detail_text {
   margin-left: 2em;
+  width: 100%;
 }
 
 
@@ -685,6 +686,10 @@ table th{
 
 /* responsive  */
 @media screen and (max-width: 768px) {
+  .main {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   .icon-hamburger {
     display: inline-block;
   }
@@ -825,8 +830,7 @@ table th{
     width: 100%;
   }
   .cardTitle th{
-    padding-right: 0.5em;
-    margin-left: 0.5em;
+    padding-right: 1em;
   }
   .detail_text {
     margin-left: 0em;
