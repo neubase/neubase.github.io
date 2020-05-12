@@ -39,8 +39,10 @@ hr {
   margin: 2.5em 1em;
 }
 .flow_image_2 {
-  display: none;
+  margin: 2.5em 0em;
 }
+
+
 
 /* header */
 .row {
@@ -868,6 +870,11 @@ table th{
     flex-direction:row;
     align-items:center;
   }
+  .flow_image_2 {
+    display: none;
+  }
+
+
 }
 
 /* order rules */
