@@ -35,6 +35,12 @@ hr {
 .weight {
   font-weight: 600;
 }
+.flow_image_1 {
+  margin: 2.5em 1em;
+}
+.flow_image_2 {
+  display: none;
+}
 
 /* header */
 .row {
@@ -845,6 +851,9 @@ table th{
   }
   .detail_content th {
     padding-right: 0.5em;
+  }
+  .flow_image_1 {
+    display: none;
   }
 
 
