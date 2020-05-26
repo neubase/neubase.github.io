@@ -164,7 +164,31 @@ hr {
   background: #1552B0;
   color: #fff;
 }
-
+.button_black{
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+}
+.button_black a {
+  text-decoration: none;
+}
+.button-sq-b {
+  display: block;
+  font-size: 14px;
+	padding: 0.8em 4em;
+	text-align: center;
+	text-decoration: none;
+	color: #eee;
+	border: 2px solid #1552B0;
+  background-color: #1552B0;
+	border-radius: 3px;
+	transition: 0.4s;
+}
+.button-sq-b:hover {
+  background: #eee;
+  color: #1552B0;
+}
 
 /* bannar */
 .bannar {
@@ -752,6 +776,7 @@ table th{
     align-self: center;
     margin-top: 25%;
     font-size: 12px;
+    /* width: 80%; */
   }
   .spec-text {
     width: 85%;
