@@ -8,12 +8,11 @@ body {
   width: 100%;
   text-decoration: none;
 }
+
 ul {
   list-style: none;
 }
-.space {
-  padding: 2em;
-}
+
 .sub-en {
   margin: 0;
   font-weight: 200;
@@ -684,6 +683,9 @@ table th{
 .detail_text {
   margin-left: 2em;
   width: 100%;
+}
+.detail_text p{
+  margin-bottom: : 0.5em;
 }
 
 
