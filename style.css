@@ -211,6 +211,7 @@ hr {
   font-weight:200;
   line-height: 0;
   letter-spacing: 0.1;
+
 }
 
 /* footer */
@@ -256,24 +257,25 @@ hr {
 .node-name h4{
   font-weight: 600;
   font-size: 32px;
-  margin: 1.5em 0 4px 0;
+  margin: 1em 0 4px 0;
   letter-spacing: 0.1;
 }
 .node-name p{
   padding: 0;
-  margin: 0 0 1em 0;
+  padding-bottom: 0.5em;
   color: #636363;
+  font-weight:200;
+  line-height: 0;
   letter-spacing: 0.1;
 }
 
-.node-frase-text h4 {
+.node-frase-text h4{
   color: #fdfdfd;
   margin: 2em 1em 1em 1em;
 }
 .list {
   margin: 0;
   align-self: center;
-  letter-spacing: 1.5px;
 }
 .node-frase-text li{
   color: #ccc;
