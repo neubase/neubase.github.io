@@ -723,9 +723,20 @@ table th{
 
 /* responsive  */
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    letter-spacing: 1.5px;
+    font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-weight: 300px;
+    font-size: 0.9em;
+    color: #393c40;
+    background-color: #fdfdfd;
+    width: 100%;
+    text-decoration: none;
+  }
   .main {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
   .icon-hamburger {
     display: inline-block;
@@ -734,6 +745,9 @@ table th{
     display: flex;
     flex-direction: column;
     align-items:center;
+  }
+  .explain-text {
+    margin: 1.5em 0.2em;
   }
   .image-b {
     margin: 1.5em 1.5em 0 1,5em;
@@ -746,7 +760,7 @@ table th{
     justify-content: center;
   }
   .card {
-    width: 80%;
+    width: 90%;
     align-self: center;
   }
   .card-2 {
@@ -779,11 +793,11 @@ table th{
     color: #ffffff;
     align-self: center;
     margin-top: 25%;
-    font-size: 10px;
+    font-size: 0.8em;
     /* width: 80%; */
   }
   .spec-text {
-    width: 85%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -885,6 +899,21 @@ table th{
   }
   .flow_image_1 {
     display: none;
+  }
+  .whatneu-text {
+    color: #63636E;
+    margin: 1em;
+    width: 90%;
+    margin: 0% 2%;
+  }
+  .digital-content-text {
+    margin: 3em 0%;
+  }
+  .management {
+    margin: 5% 2%;
+  }
+  .stake-content-text {
+    margin: 8% 0% 0 0%;
   }
 
 
