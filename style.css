@@ -160,6 +160,7 @@ hr {
 	border: 2px solid #1552B0;
 	border-radius: 3px;
 	transition: 0.4s;
+  background-color: #fff;
 }
 .button-sq:hover {
   background: #1552B0;
