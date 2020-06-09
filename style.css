@@ -30,8 +30,17 @@ hr {
   font-weight: 100;
   padding-right: 1em;
 }
+.number_2 {
+  font-size: 22px;
+  font-weight: 400;
+  padding-right: 0.5em;
+  color: #1552B0;
+}
 .res-iamge img{
   width: 80%;
+}
+.res-iamge_1 img{
+  width: 50%;
 }
 .weight {
   font-weight: 600;
@@ -126,6 +135,7 @@ hr {
   align-items: center;
   justify-content: center;
   margin: 1.5em;
+
 }
 .button a {
   text-decoration: none;
@@ -160,11 +170,11 @@ hr {
 	border: 2px solid #1552B0;
 	border-radius: 3px;
 	transition: 0.4s;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .button-sq:hover {
   background: #1552B0;
-  color: #fff;
+  color: #ffffff;
 }
 .button_black{
   height: 100%;
@@ -294,6 +304,10 @@ hr {
 .image{
   margin: 0.5em ;
 }
+.image_circle{
+  margin: 0.5em ;
+  padding-top: 1em;
+}
 
 /* page staking */
 .stake-top {
@@ -356,8 +370,8 @@ hr {
 .card-2 p {
   margin: 1.2em;
   font-weight: 600;
-
 }
+
 
 /* page disital */
 .digital-title h2{
@@ -603,6 +617,11 @@ textarea[id="contactText"]{
 	border-radius: 3px;
 	transition: 0.4s;
   margin: 0;
+  background-color: #ffffff;
+}
+.button_li:hover {
+  background: #1552B0;
+  color: #ffffff;
 }
 .button_buy {
   display: block;
@@ -615,6 +634,12 @@ textarea[id="contactText"]{
 	border: 2px solid #1552B0;
 	border-radius: 3px;
 	transition: 0.4s;
+}
+.button_buy:hover {
+  background-color: #1552B0;
+  box-shadow: 0px 7px 12px rgba(0, 88, 255, 0.4);
+  color: #fff;
+  transform: translateY(-3px);
 }
 .propblock {
   margin-top: 4em;
