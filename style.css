@@ -353,10 +353,21 @@ hr {
 .card {
   width: 50%;
   align-self:stretch;
-  background-color: #F2F2F2;
+  background-color: #fdfdfd;
   margin: 1.5em;
   padding: 1em 2em 0 2em;
 }
+.card_manage {
+  width: 50%;
+  align-self:stretch;
+  background-color: #fefefe;
+  margin: 1.5em;
+  padding: 1em 2em 0 2em;
+  box-shadow: 0px 0px 10px rgba(3,3,3,0.1);
+  transform: translateY(-3px);
+}
+
+
 .card h4 {
  line-height: 0px;
  margin: 0.8em;
@@ -606,6 +617,11 @@ textarea[id="contactText"]{
   justify-content: center;
   align-items: center;
 }
+.alppy_button_new{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .button_li {
   display: block;
   font-size: 14px;
@@ -654,6 +670,9 @@ textarea[id="contactText"]{
 .propImage {
   margin:1em;
 }
+.propImage_face {
+  margin-bottom:0.2em;
+}
 .propCard {
    margin:1em;
    padding: 1em;
@@ -662,8 +681,17 @@ textarea[id="contactText"]{
    display: flex;
    flex-direction: row;
 }
+.propCard_new {
+  margin:1em;
+  padding: 0%;
+  background-color: #;
+  display: flex;
+}
 table th{
   /* font-weight: 400; */
+}
+.cardTable {
+  width: 100%;
 }
 .cardTitle table{
   text-align: left;
@@ -791,6 +819,11 @@ table th{
     width: 90%;
     align-self: center;
   }
+  .card_manage {
+    width: 90%;
+    align-self: center;
+  }
+
   .card-2 {
     width: 80%;
     align-self: center;
