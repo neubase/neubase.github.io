@@ -44,6 +44,22 @@
 </head>
 <body>
 
+<!-- DBとの連携 -->
+  <script>
+    const store = new SteinStore(
+      "https://api.steinhq.com/v1/storages/5ee310e783c30d0425e2c4b1"
+    );
+
+    store.read("RDB", { limit: 100, offset: 0 }).then(data => {
+        console.dir(data);
+        console.log(" - - - - - - - - - - - ");
+        for (let i = 0; i < data.length; i++) {
+              const element = data[i];
+              console.log("title:"+element.text);
+        }
+    });
+  </script>
+
   <header>
       <div id="nav-drawer">
           <input id="nav-input" type="checkbox" class="nav-unshown">
@@ -112,12 +128,13 @@
         </div>
         <div class="propCard center">
           <div class="cardTitle">
+            <div data-stein-url="https://api.steinhq.com/v1/storages/5ee310e783c30d0425e2c4b1/'RDB" data-stein-limit="100">
             <table>
               <tr>
-                <th>物件ID</th><td>0001</td>
+                <th>特定番号</th><td>{{特定番号}}</td>
               </tr>
               <tr>
-                <th>販売価格</th><td>¥1,500,000</td>
+                <th>Invoice画像URL</th><td>{{Invoice画像URL}}</td>
               </tr>
               <tr>
                 <th>即時償却金額</th><td>¥1,500,000</td>
@@ -135,6 +152,7 @@
                 <th>製品保証</th><td>1年間</td>
               </tr>
             </table>
+          </div>
           </div>
         </div>
       </div>
@@ -622,7 +640,7 @@
       <footer class="ft-text">©︎2020 Zofuku supported by Neukind</footer>
     </div>
   </section>
-
+  <script src="https://unpkg.com/stein-js-client"></script>
 </body>
 
 <!-- js -->
