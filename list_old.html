@@ -47,7 +47,7 @@
 <!-- DBとの連携 -->
   <script>
     const store = new SteinStore(
-      "https://api.steinhq.com/v1/storages/5ee310e783c30d0425e2c4b1"
+      "https://api.steinhq.com/v1/storages/5ee331f283c30d0425e2c4b5/"
     );
 
     store.read("RDB", { limit: 100, offset: 0 }).then(data => {
@@ -118,6 +118,14 @@
       </p>
     </div>
 
+
+    <div data-stein-url="https://api.steinhq.com/v1/storages/5ee331f283c30d0425e2c4b5/'RDB'" data-stein-limit="100">
+      <div class="">
+        <h3>{{特定番号}}</h3>
+      </div>
+    </div>
+
+
     <div class="propblock center">
       <div class="propTitle center">
         千葉県流山市｜150万円｜5年表面利回り84.03%
@@ -128,7 +136,7 @@
         </div>
         <div class="propCard center">
           <div class="cardTitle">
-            <div data-stein-url="https://api.steinhq.com/v1/storages/5ee310e783c30d0425e2c4b1/'RDB" data-stein-limit="100">
+
             <table>
               <tr>
                 <th>特定番号</th><td>{{特定番号}}</td>
@@ -152,7 +160,6 @@
                 <th>製品保証</th><td>1年間</td>
               </tr>
             </table>
-          </div>
           </div>
         </div>
       </div>
