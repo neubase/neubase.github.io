@@ -572,6 +572,7 @@ input:focus {
   border: 2px solid #1552B0;
   border-radius: 3px;
   transition: 0.4s;
+  background-color: #fdfdfd;
 }
 .submit :hover {
   background: #1552B0;
