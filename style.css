@@ -126,9 +126,7 @@ hr {
   .menu-container .menu .menu-item:last-child a {
     border-bottom: none;
   }
-  .res_top_text h1{
-    display: none;
-  }
+
 }
 /* header end */
 
@@ -1007,7 +1005,9 @@ table th{
   .flow_image_2 {
     display: none;
   }
-
+  .res_top_text h1{
+    display: none;
+  }
 
 }
 
