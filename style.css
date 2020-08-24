@@ -126,6 +126,9 @@ hr {
   .menu-container .menu .menu-item:last-child a {
     border-bottom: none;
   }
+  .res_top_text h1{
+    display: none;
+  }
 }
 /* header end */
 
@@ -263,9 +266,7 @@ hr {
   align-self: center;
   margin-top: 15%;
 }
-.res_top_text h1{
-  display: none;
-}
+
 .top-image img{
   width: 100%;
 }
