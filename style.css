@@ -263,6 +263,9 @@ hr {
   align-self: center;
   margin-top: 15%;
 }
+.res_top_text {
+  display: none;
+}
 .top-image img{
   width: 100%;
 }
