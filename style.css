@@ -855,8 +855,8 @@ table th{
     color: #ffffff;
     align-self: center;
     margin-top: 25%;
-    font-size: 0.8em;
-    /* width: 80%; */
+    font-size: 0.5em;
+    width: 96%;
   }
   .spec-text {
     width: 90%;
