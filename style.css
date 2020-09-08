@@ -1007,6 +1007,25 @@ table th{
   .res-iamge_1 img{
     width: 80%;
   }
+  .button_EC {
+    display: block;
+    font-size: 12px;
+    margin: 10% 0;
+  	padding: ;
+  	text-align: center;
+  	text-decoration: none;
+  	color: #fdfdfd;
+    background-color: #fd5d5d;
+  	border: 2px solid #fd5d5d;
+  	border-radius: 3px;
+  	transition: 0.4s;
+  }
+  .button_EC:hover {
+    background-color: #fdfdfd;
+    box-shadow: 0px 7px 12px rgba(253, 93, 93, 0.4);
+    color: #fd5d5d;
+    transform: translateY(-3px);
+  }
 
 
 }
